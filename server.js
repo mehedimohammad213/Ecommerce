@@ -9,7 +9,7 @@ import productRoutes from "./routes/productRoutes.js";
 import path from "path";
 import {fileURLToPath} from 'url';
 import cors from "cors";
-import dirname from 'dirname';
+import {dirname} from 'dirname';
 //configure env
 dotenv.config();
 
